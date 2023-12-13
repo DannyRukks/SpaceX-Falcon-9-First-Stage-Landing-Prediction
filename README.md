@@ -118,11 +118,17 @@ WHERE Date > '2010-06-04' & Date <= '2017-03-20'
 ![rank](https://github.com/DannyRukks/SpaceX-Falcon-9-First-Stage-Landing-Prediction/assets/97890440/e9602eaa-7b21-4b82-8307-d491200877d4)
 
 # Predictive Analysis (Classification)
-We built a machine learning a machine learning pipeline to predict if the first stage of the falcon 9 will land successfully. This begins with preprocessing of the dataset. This was followed by standardizing the dataset. The dataset was split into training and testing dataset. Models such as Logistic regression, Support Vector Machines, Decision tree and K-Nearest neighbours were used to train and test the data. GridSearch was performed allowing us to find the best hyper parameters that allow a given model to perform best. Visualizing the built model accuracy for all built classification models in a bar chart shows that decision tree has the highest classification accuracy with an accuracy of 88.9%. The confusion matrix is shown below:
+We built a machine learning a machine learning pipeline to predict if the first stage of the falcon 9 will land successfully. This begins with preprocessing of the dataset. This was followed by standardizing the dataset. The dataset was split into training and testing dataset. Models such as Logistic regression, Support Vector Machines, Decision tree and K-Nearest neighbours were used to train and test the data. GridSearch was performed allowing us to find the best hyper parameters that allow a given model to perform best. Visualizing the built model accuracy for all built classification models in a bar chart shows that decision tree has the highest classification accuracy with an accuracy of 88.9%. 
 
+![bar plot result](https://github.com/DannyRukks/SpaceX-Falcon-9-First-Stage-Landing-Prediction/assets/97890440/692486d8-e03e-4333-9460-99e08c20967b)
 
+The confusion matrix is shown below:
+
+![confusion mat](https://github.com/DannyRukks/SpaceX-Falcon-9-First-Stage-Landing-Prediction/assets/97890440/bdd40338-4746-4666-badf-48b572a1fe63)
 
 From the confusion matrix shown above the model correctly predicted 5 outcome of 6 not landing and correctly predicted 10  outcome landing from a possible 12.
+
 # Conclusions
 The Decision tree classifier has been proved to be the best model to be used for the prediction (classification) as it has the highest classification accuracy. The decision  tree classifier has an accuracy of 88.9%. The model correctly predicted 5 outcome of 6 not landing and correctly predicted 10  outcome landing from a possible 12. The launch sites are located near highways, coastlines and railways for ease of transportations. The trend analysis shows that there has been record of increasing success rate since 2013 till 2020. The price of each launch can now be determined
 
+### Thank you
